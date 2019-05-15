@@ -1,0 +1,9 @@
+.main-modal{
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+    outline: none;
+    box-shadow: 2px 2px 18px;
+}

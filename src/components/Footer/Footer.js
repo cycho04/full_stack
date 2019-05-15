@@ -1,17 +1,13 @@
 import React from 'react';
-import BottomNavigation from '@material-ui/core/BottomNavigation';
-import BottomNavigationAction from '@material-ui/core/BottomNavigationAction';
-import RestoreIcon from '@material-ui/icons/Restore';
-import { withStyles } from '@material-ui/core/styles';
-import styles from './Footer-styles';
+import './Footer.css';
 
 const Footer = () => {
     return(
-        <BottomNavigation showlabels>
-            <BottomNavigationAction label='House-Way' icon={<RestoreIcon />}/>
-            <BottomNavigationAction label='New Hand' icon={<RestoreIcon />}/>
-        </BottomNavigation>
+        <div className='footer-container'>
+            <p>© Chris Y Cho 2019</p>
+            <p>Pai Gow Poker</p>
+        </div>
     )
 }
 
-export default withStyles(styles)(Footer);
+export default Footer;

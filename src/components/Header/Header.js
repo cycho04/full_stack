@@ -7,14 +7,12 @@ import MenuIcon from '@material-ui/icons/Menu';
 
 const Header = () => {
     return(
-        <AppBar position='fixed'>
+        <AppBar position='sticky'>
             <Toolbar>
                 <IconButton>
                     <MenuIcon />    
                 </IconButton>
-                <Button>Home</Button> 
-                <Button>How To</Button> 
-                <Button>Game</Button>    
+                <Button>Pai Gow Poker</Button>    
             </Toolbar>
         </AppBar>
     )
