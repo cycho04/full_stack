@@ -1,0 +1,10 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    grid-column-gap: 1.0em;
+}
+
+.grid-item{
+    text-align: center;
+    background-color: yellow;
+}
