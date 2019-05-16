@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Modal from '@material-ui/core/Modal';
 import Button from '@material-ui/core/Button';
+import ModalContent from './ModalContent';
 
 import './MainModal.css';
 
@@ -32,7 +33,7 @@ class MainModal extends Component {
                     onClose={this.handleClose}
                 >
                     <div className='main-modal'>
-                        <h1>Choose your cards</h1>    
+                        <ModalContent />   
                     </div>
                 </Modal>
             </div>
